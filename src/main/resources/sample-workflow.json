@@ -1,0 +1,20 @@
+{
+  "id": "1",
+  "name": "Sample Workflow",
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Task A",
+      "type": "taskTypeA",
+      "state": "SCHEDULED",
+      "data": "some data for task A"
+    },
+    {
+      "id": "2",
+      "name": "Task B",
+      "type": "taskTypeB",
+      "state": "SCHEDULED",
+      "data": "some data for task B"
+    }
+  ]
+}

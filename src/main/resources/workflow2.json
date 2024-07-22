@@ -1,0 +1,22 @@
+{
+  "id": "1",
+  "name": "Sample Workflow with Retry",
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Task A",
+      "type": "taskTypeA",
+      "state": "SCHEDULED",
+      "data": "some data for task A",
+      "retryCount": 2
+    },
+    {
+      "id": "2",
+      "name": "Task B",
+      "type": "taskTypeB",
+      "state": "SCHEDULED",
+      "data":  "some data for task B",
+      "retryCount": 2
+    }
+  ]
+}
